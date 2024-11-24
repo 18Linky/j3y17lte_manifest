@@ -4,4 +4,4 @@ to this manifest please visit the relevant repositories.
 
 # How to download this manifest ?
 
-`git clone https://github.com/j3y17lte-dev/android_platform_manifest.git .repo/local_manifests`
+`git clone https://github.com/18linky/j3y17lte_manifest.git .repo/local_manifests`
