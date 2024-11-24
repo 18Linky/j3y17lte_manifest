@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <remote name="device"
+            fetch="https://github.com"
+            revision="lineage-16.0"/>
+
+     <remote name="kernel"
+            fetch="https://github.com"
+            revision="master"/>  
+                     
+   <!-- <remote name="vendor"
+            fetch="https://github.com"
+            revision="branch_name" />-->
+	
+
+
+
+
+    <!--Device Trees-->
+    <project path="device/samsung/j3y17lte" name="18Linky/device_samsung_j3y17lte" remote="device" />
+
+
+    <!--Kernel-->
+    <project path="kernel/samsung/exynos7570" name="18Linky/android_kernel_samsung_exynos7570" remote="kernel" />
+
+   <!-- Vendor folders
+    <project path="vendor/brand_name/device_codename" name="username/reponame" remote="vendor" /> -->
+</manifest>
