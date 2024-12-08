@@ -9,10 +9,10 @@
             fetch="https://github.com"
             revision="master"/>  
                      
-   <!-- <remote name="vendor"
+     <remote name="vendor"
             fetch="https://github.com"
-            revision="branch_name" />-->
-	
+            revision="lineage-16.0" />
+    
 
 
 
@@ -24,6 +24,6 @@
     <!--Kernel-->
     <project path="kernel/samsung/exynos7570" name="18Linky/android_kernel_samsung_exynos7570" remote="kernel" />
 
-   <!-- Vendor folders
-    <project path="vendor/brand_name/device_codename" name="username/reponame" remote="vendor" /> -->
+   <!-- Vendor folders-->
+    <project path="vendor/samsung/j3y17lte" name="18Linky/android_vendor_samsung_j3y17lte" remote="vendor" />
 </manifest>
